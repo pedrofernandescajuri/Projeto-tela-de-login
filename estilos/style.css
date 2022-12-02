@@ -1,0 +1,105 @@
+@charset "Utf-8";
+/* Mobile firsth */
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+body {
+    background-color: #7F0094;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main {
+    background-color: white;
+    width: 50vw;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 20px;
+    box-shadow: 0px 0px 7px 0px black;
+}
+section#img > img {
+    display: block;
+    width: 100%;
+    height: 30vh;
+    margin: auto;
+    border-radius: 20px 20px 0px 0px;
+}
+main > section#texto > h1 {
+    padding: auto;
+    text-align: center;
+}
+main > section#texto > p {
+    padding: auto;
+    text-align: center;
+    font-size: 0.8em;
+}
+main > section#login > form {
+    width: 90%;
+    padding: 10px;
+    padding-top: 0px;
+}
+main > section#login > form > p#email {
+    background-color: #7F0094;
+    height: 6vh;
+    border-radius: 10px;
+}
+main > section#login > form > p#email > input {
+    background-color: rgb(204, 250, 255);
+    height: 5vh;
+    width: 83%;
+    border-radius: 10px;
+}
+main > section#login > form > p#email > label {
+    color: white;
+}
+main > section#login > form > p#senha {
+    background-color: #7F0094;
+    height: 6vh;
+    border-radius: 10px;
+
+}
+main > section#login > form > p#senha > input {
+    background-color: rgb(204, 250, 255);
+    height: 5vh;
+    width: 83%;
+    border-radius: 10px;
+}
+main > section#login > form > p#senha > label {
+    color: white;
+}
+main > section#login > form > p#isenha {
+    background-color: rgb(104, 164, 170);
+    height: 6vh;
+    border-radius: 10px;
+}
+main > section#login > form > p#isenha > input {
+    height: 6vh;
+    margin-left: 40%;
+    color: white;
+    background-color: rgb(104, 164, 170);
+    border: 0px;
+    font-size: 1em;
+}
+main > section#login > form > p#essen {
+    background-color: white;
+    height: 6vh;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+main > section#login > form > p#essen > input {
+    height: 6vh;
+    color: rgb(0, 0, 0);
+    border: 0px;
+    font-size: 1em;
+    margin-left: 25%;
+    background-color: white;
+}
