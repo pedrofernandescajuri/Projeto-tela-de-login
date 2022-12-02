@@ -49,31 +49,31 @@ main > section#login > form {
 }
 main > section#login > form > p#email {
     background-color: #7F0094;
-    height: 6vh;
+    height: 10%;
     border-radius: 10px;
 }
 main > section#login > form > p#email > input {
     background-color: rgb(204, 250, 255);
-    height: 5vh;
-    width: 35vw;
+    padding-top: 5%;
+    width: 80%;
     border-radius: 10px;
-    padding-right: 3vw;
+    padding-right: 4%;
 }
 main > section#login > form > p#email > label {
     color: white;
 }
 main > section#login > form > p#senha {
     background-color: #7F0094;
-    height: 6vh;
+    height: 10%;
     border-radius: 10px;
 
 }
 main > section#login > form > p#senha > input {
     background-color: rgb(204, 250, 255);
-    height: 5vh;
-    width: 35vw;
+    padding-top: 5%;
+    width: 80%;
     border-radius: 10px;
-    padding-right: 3vw;
+    padding-right: 4%;
 }
 main > section#login > form > p#senha > label {
     color: white;
