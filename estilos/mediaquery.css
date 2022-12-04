@@ -1,6 +1,6 @@
 @charset "Utf-8";
 /* Mais de 568px e menos de 968px */
-@media screen and (min-width : 600px) and (max-width: 968px) {
+@media screen and (min-width : 668px) and (max-width: 968px) {
     body {
         background-image: linear-gradient(to bottom,  #705791, #c5bbd1);
         background-attachment: fixed;
@@ -8,21 +8,21 @@
     main {
         margin-top: 30vh;
         height: 20%;
-        width: 100%;
+        width: 90%;
         background-image: url(../imagens/metal-pequena.jpg);
         background-repeat: no-repeat;
+        background-size: contain;
     }
     main > section#img {
         display: none;
     }
     main > section#texto {
-        width: 40%;
-        margin-left: 50%;
+        width: 60%;
+        margin-left: 40%;
         padding-left: 0px;
     }
     main > section#login {
-        width: 40%;
-        margin-left: 50%;
+        width: 60%;
+        margin-left: 40%;
     }
-    
 }
