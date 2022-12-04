@@ -6,7 +6,7 @@
         background-attachment: fixed;
     }
     main {
-        margin-top: 25vh;
+        margin-top: 15%;
         margin-bottom: 25vh;
         height: 330px;
         width: 600px;
@@ -27,17 +27,20 @@
         padding-bottom: 0px;
         margin-top: 3%;
     }
+    main > section#login > form > p#email {
+        height: 43px;
+    }
     main > section#login {
-        width: 60%;
+        width: 360px;
         margin-left: 40%;
         padding-left: 0px;
-    }
-    main > section#login > form > p#email {
-        width: 90%;
     }
     main > section#login > form > p#email > input {
         width: 287px;
         height: 37px;
+    }
+    main > section#login > form > p#senha {
+        height: 43px;
     }
     main > section#login > form > p#senha > input {
         width: 287px;
@@ -50,5 +53,6 @@
     main > section#login > form > p#essen > input {
         width: 320px;
         height: 37px;
+        margin-bottom: -3%;
     }
 }
