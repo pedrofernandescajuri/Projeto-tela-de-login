@@ -29,11 +29,30 @@
     main > section#login > form {
         width: 110%;
     }
+    main > section#login > form > p#email {
+        width: 60%;
+        height: 4vh;
+    }
     main > section#login > form > p#email > input {
-        width: 111%;
-        margin-top: 0px;
+        width: 29vw;
+        margin-left: -10%;
+        border: 0px;
+        padding-top: 3vh;
+        height: 25%;
+        padding-right: 3.5%;
+        box-shadow: 20px 0px 0px 0px rgb(204 250 255);
+    }
+    main > section#login > form > p#senha {
+        width: 60%;
+        height: 4vh;
     }
     main > section#login > form > p#senha > input {
-        width: 111%;
+        width: 29vw;
+        margin-left: -10%;
+        border: 0px;
+        padding-top: 3vh;
+        height: 25%;
+        padding-right: 3.5%;
+        box-shadow: 20px 0px 0px 0px rgb(204 250 255);
     }
 }
