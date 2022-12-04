@@ -6,7 +6,8 @@
         background-attachment: fixed;
     }
     main {
-        margin-top: 30vh;
+        margin-top: 25vh;
+        margin-bottom: 25vh;
         height: 20%;
         width: 90%;
         background-image: url(../imagens/metal-pequena.jpg);
