@@ -52,6 +52,7 @@ main > section#login > form {
 main > section#login > form > p#email {
     background-color: #7F0094;
     height: 10%;
+    width: 80%;
     border-radius: 10px;
     padding-left: 14vw;
 }
@@ -70,6 +71,7 @@ main > section#login > form > p#email > label {
 main > section#login > form > p#senha {
     background-color: #7F0094;
     height: 10%;
+    width: 80%;
     border-radius: 10px;
     padding-left: 14vw;
 }
