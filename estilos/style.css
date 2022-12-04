@@ -46,6 +46,7 @@ main > section#login > form {
     width: 90%;
     padding: 0px;
     padding-top: 0px;
+    margin-left: 5%;
 }
 main > section#login > form > p#email {
     background-color: #7F0094;
@@ -58,7 +59,7 @@ main > section#login > form > p#email > input {
     padding-top: 5%;
     width: 80%;
     border-radius: 10px;
-    margin-right: 0px;
+    margin-left: 3%;
 }
 main > section#login > form > p#email > label {
     color: white;
@@ -67,14 +68,14 @@ main > section#login > form > p#senha {
     background-color: #7F0094;
     height: 10%;
     border-radius: 10px;
-
+    padding: 0px;
 }
 main > section#login > form > p#senha > input {
     background-color: rgb(204, 250, 255);
     padding-top: 5%;
     width: 80%;
     border-radius: 10px;
-    margin-right: 0px;
+    margin-left: 3%;
 }
 main > section#login > form > p#senha > label {
     color: white;
