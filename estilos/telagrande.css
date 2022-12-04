@@ -1,0 +1,51 @@
+@charset "Utf-8";
+/*Mais de 968px*/
+@media screen and (min-width : 968px) {
+    body {
+        background-image: linear-gradient(to bottom,  #512d81, #759b98);
+        background-attachment: fixed;
+    }
+    main {
+        padding: auto;
+       
+        height: 330px;
+        width: 900px;
+    }
+    main > section > img {
+        width: 452px;
+        height: 330px;
+        margin-left: 50%;
+        padding: 0px;
+        border-radius: 0px 10px 10px 0px;
+    }
+    main > section#texto {
+        width: 400px;
+        margin-top: -330px;
+    }
+    main > section#login > form > p#email {
+        width: 400px;
+        height: 40px;
+    }
+    main > section#login > form > p#email > input {
+        height: 15px;
+        padding-top: 21px;
+        width: 363px;
+    }
+    main > section#login > form > p#senha {
+        width: 400px;
+        height: 40px;
+    }
+    main > section#login > form > p#senha > input {
+        height: 15px;
+        padding-top: 21px;
+        width: 363px;
+    }
+    main > section#login > form > p#isenha > input {
+        height: 40px;
+        width: 400px;
+    }
+    main > section#login > form > p#essen > input {
+        height: 40px;
+        width: 400px;
+    }
+}
